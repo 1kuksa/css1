@@ -16,7 +16,7 @@ h1 { background:blue;}
 
 section .box div {background: green;}
 section .box p {background: red;}
-.green {
+section.green {
     color: white;
     background: green;
 
@@ -92,14 +92,14 @@ color:white;}
 ul > li {
     background: white;
 }
- span[class$="s"] {
+.lesson-three-task-eight span[class$="s"] {
     background: red;
 }
 
-.lesson-three-task-nine h2::first-letter,h3::first-letter {
+.lesson-three-task-nine::first-letter, .lesson-three-task-nine h3::first-letter {
     color:red;
 }
-.lesson-three-task-ten p::first-line{
+.lesson-three-task-ten::first-line{
     background: yellow;
 }
 .lesson-three-task-eleven input::placeholder {
